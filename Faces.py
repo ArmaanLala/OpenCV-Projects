@@ -11,7 +11,7 @@ def changeResolution(width,height):
     cap.set(3,width)
     cap.set(4,height)
 
-# changeResolution(320,240)
+changeResolution(320,240)
 
 while True:
     ret, frame = cap.read()
